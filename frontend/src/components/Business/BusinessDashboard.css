@@ -1,0 +1,158 @@
+/* Base styles */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* BusinessDashboard container */
+.business-dashboard {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.business-dashboard h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Search bar styles */
+.business-dashboard .search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.business-dashboard .search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.business-dashboard .search-bar button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.business-dashboard .search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Business list styles */
+.business-dashboard .business-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.business-dashboard .business-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.business-dashboard .business-item h3 {
+    margin: 0 0 10px 0;
+}
+
+.business-dashboard .business-item p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Loading indicator */
+.business-dashboard .loading {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Error message */
+.business-dashboard .error-message {
+    font-size: 1.2rem;
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Pagination styles */
+.business-dashboard .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.business-dashboard .pagination .page-item {
+    margin: 0 5px;
+}
+
+.business-dashboard .pagination .page-link {
+    border: none;
+    background: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.business-dashboard .pagination .page-link.active {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .business-dashboard {
+        padding: 10px;
+    }
+
+    .business-dashboard h2 {
+        font-size: 1.5rem;
+    }
+
+    .business-dashboard .search-bar input[type="text"],
+    .business-dashboard .search-bar button {
+        font-size: 1rem;
+    }
+
+    .business-dashboard .business-item h3,
+    .business-dashboard .business-item p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+
+    .business-dashboard h2 {
+        font-size: 1.4rem;
+    }
+
+    .business-dashboard .search-bar input[type="text"],
+    .business-dashboard .search-bar button {
+        font-size: 0.9rem;
+    }
+
+    .business-dashboard .business-item h3,
+    .business-dashboard .business-item p {
+        font-size: 0.9rem;
+    }
+}

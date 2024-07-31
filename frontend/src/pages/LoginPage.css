@@ -1,0 +1,45 @@
+/* LoginPage.css */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Consistent with HomePage */
+    color: #333; /* Consistent text color */
+    text-align: center;
+    padding: 20px;
+}
+
+.login-page input[type="text"],
+.login-page input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-page button {
+    width: 50%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff; /* Consistent with SearchBar button */
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-page button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .login-page input[type="text"],
+    .login-page input[type="password"],
+    .login-page button {
+        width: 100%;
+    }
+}

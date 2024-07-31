@@ -1,0 +1,35 @@
+/* SearchResults.css */
+.search-results {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light grey, for consistency with SearchBar */
+}
+
+.search-result {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White background for contrast */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.search-result h3 {
+    margin-top: 0;
+    color: #007bff; /* Blue, for visibility */
+}
+
+.search-result p {
+    color: #333; /* Dark grey text, for contrast */
+}
+
+@media (max-width: 768px) {
+    .search-results {
+        padding: 10px;
+    }
+
+    .search-result {
+        padding: 10px;
+    }
+}

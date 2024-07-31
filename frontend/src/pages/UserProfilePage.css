@@ -1,0 +1,17 @@
+/* UserProfilePage.css */
+.user-profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .user-profile-page {
+        padding: 10px;
+    }
+}

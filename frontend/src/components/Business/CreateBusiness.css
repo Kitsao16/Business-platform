@@ -1,0 +1,103 @@
+/* CreateBusiness container */
+.create-business {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.create-business h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form group styles */
+.create-business .form-group {
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+.create-business label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input and textarea styles */
+.create-business input,
+.create-business textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Product input styles */
+.create-business .product-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.create-business .product-input input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.create-business .product-input button {
+    padding: 5px 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-business .product-input button:hover {
+    background-color: #c9302c;
+}
+
+/* Error message styles */
+.create-business .error-message {
+    color: red;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Submit button styles */
+.create-business button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-business button[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+/* Add product button styles */
+.create-business button[type="button"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.create-business button[type="button"]:hover {
+    background-color: #025aa5;
+}

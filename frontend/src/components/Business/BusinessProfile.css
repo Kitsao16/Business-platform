@@ -1,0 +1,170 @@
+/* Base styles */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* BusinessProfile container */
+.business-profile {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+h2, h3 {
+    margin: 0 0 10px 0;
+}
+
+p, li {
+    font-size: 1rem; /* Responsive font size */
+}
+
+/* Form and buttons */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Search Results */
+.search-results {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.search-result {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-result h3 {
+    margin: 0 0 10px 0;
+}
+
+.search-result p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Loading Indicator */
+.loading {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Error Message */
+.error-message {
+    font-size: 1.2rem;
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .business-profile {
+        flex-direction: column;
+    }
+
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+
+    p, li {
+        font-size: 1.2rem;
+    }
+
+    .search-bar input[type="text"],
+    .search-bar button {
+        font-size: 1.2rem;
+    }
+
+    .search-result h3,
+    .search-result p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+
+    h2, h3 {
+        font-size: 1.4rem;
+    }
+
+    p, li {
+        font-size: 1.1rem;
+    }
+
+    .search-bar input[type="text"],
+    .search-bar button {
+        font-size: 1.1rem;
+    }
+
+    .search-result h3,
+    .search-result p {
+        font-size: 1.1rem;
+    }
+}

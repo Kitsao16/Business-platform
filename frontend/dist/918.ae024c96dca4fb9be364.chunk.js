@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbusiness_platform=self.webpackChunkbusiness_platform||[]).push([[918],{3918:(s,e,i)=>{i.r(e),i.d(e,{default:()=>h});var n=i(4848);i(6540);const h=()=>(0,n.jsxs)("div",{children:[(0,n.jsx)("h2",{children:"Unauthorized"}),(0,n.jsx)("p",{children:"You do not have permission to view this page."})]})}}]);
